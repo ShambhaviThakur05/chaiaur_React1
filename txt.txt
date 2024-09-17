@@ -1,0 +1,21 @@
+# React + Vite + Tailwind
+
+npm create vite@latest
+cd 04bgChanger
+npm i
+
+open tailwind css on broweser and see commands for vite
+tailwind css > get started > Framework Guidelines > Vite
+
+npm create vite@latest my-project -- --template react
+cd my-project
+
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+
+inside tailwindconfig.js-
+content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
